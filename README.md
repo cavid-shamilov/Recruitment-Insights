@@ -7,13 +7,13 @@ A Recruitment Meritocracy Analysis dashboard built using SQL Server for data pro
 #### Visualization: Power BI (DAX, Interactive Dashboards)
 
 #### Key Insight: Identifying gaps between technical proficiency and hiring decisions.
-## 1.Raw data
+## 1. Raw data
 ![Raw Data Preview](raw_data.png)
-## 2.A new database is being created.
+## 2. A new database is being created.
 ```sql
 create database StudentPerformanceDB
 ```
-## 3.In the next step, I imported a dataset from Kaggle into SQL Server using the "Import Flat File" feature.
+## 3. In the next step, I imported a dataset from Kaggle into SQL Server using the "Import Flat File" feature.
 ![Import Data Preview](import_data.png)
 ## 4. The data is shown after import. 
 ![after import Preview](after_import.png)
@@ -24,7 +24,7 @@ ALTER TABLE scores
 ADD student_id INT IDENTITY(1,1) PRIMARY KEY
 ```
 ![after primary key Preview](after_primary_key.png)
-## 6.Overview of Student Placement 
+## 6. Overview of Student Placement 
 This query calculates the total number of students, the count of placed students, and the overall placement rate. 
 ```sql
 select
@@ -136,12 +136,12 @@ where Student_Placed = 'Yes'
 select * from scores
 WHERE Python < 5 AND Student_Placed = 'Yes'
 ```
-![kod Preview](kod7.png)
+![kod Preview](Kod7.png)
 ### 3. High-Score Rejection Audit: Cross-referenced top-performing students against their 'No' placement status to identify logical inconsistencies.(For example: row 15) 
 ```sql
 select * from scores
 ```
-![kod Preview](kod8.png)
+![kod Preview](Kod8.png)
 ## During my SQL analysis, I found some very strange cases that prove exam scores aren't everything. For example, Student #15 had amazing scores (88 in Python, 83 in SQL, 93 in ML) but was not hired. On the other hand, Student #167 got the job despite scoring only 3 in Python and 6 in ML. 
 
 ## This points to two main conclusions: 
