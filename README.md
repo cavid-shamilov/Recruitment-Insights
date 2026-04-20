@@ -3,6 +3,6 @@ A Recruitment Meritocracy Analysis dashboard built using SQL Server for data pro
 
 ## Database: SQL Server (Data Cleaning & Aggregation)
 
-Visualization: Power BI (DAX, Interactive Dashboards)
+## Visualization: Power BI (DAX, Interactive Dashboards)
 
-Key Insight: Identifying gaps between technical proficiency and hiring decisions.
+## Key Insight: Identifying gaps between technical proficiency and hiring decisions.
