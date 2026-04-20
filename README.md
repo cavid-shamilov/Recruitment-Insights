@@ -119,7 +119,7 @@ order by  Avg_Score desc
 ```
 ![kod Preview](kod5.png)
 ## 11. To stress-test the relationship between scores and career outcomes, I conducted a three-step anomaly analysis: 
-- **1. Minimum Threshold Check: Identified the absolute lowest scores among placed students to find the entry floor. 
+- **1. Minimum Threshold Check: Identified the absolute lowest scores among placed students to find the entry floor.** 
 ```sql
 select  
     min(Python) as Min_Python, 
