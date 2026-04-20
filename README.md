@@ -9,3 +9,8 @@ A Recruitment Meritocracy Analysis dashboard built using SQL Server for data pro
 #### Key Insight: Identifying gaps between technical proficiency and hiring decisions.
 ## 1.Raw data
 ![Raw Data Preview](raw_data.png)
+## 2.A new database is being created.
+```sql
+create database StudentPerformanceDB
+```
+
