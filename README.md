@@ -177,7 +177,7 @@ This points to two main conclusions:
 ![Grafic](GRAFIC3.png)
 ---
 *How to View the Project
-1. Download the [Recruitment_Analysis.pbix](Final_Dasboard.pbix) file.
+1. Download the [Recruitment_Analysis.pbix](Final_Dashboard.pbix) file.
 2. Open it using **Power BI Desktop**.
 *Data Source: https://www.kaggle.com/datasets/samarsaeedkhan/scores 
 
