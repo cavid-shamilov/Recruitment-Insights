@@ -149,5 +149,34 @@ select * from scores
 #### Hidden Factors: Real-world elements like interview performance or past experience might have outweighed the test results. 
 
 #### Data Integrity: There is a strong possibility that the dataset itself is inconsistent or synthetic. The lack of a logical correlation between high scores and placement suggests that the data may not reflect real-world hiring logic. As an analyst, recognizing that data can sometimes be unreliable is just as important as the analysis itself. 
+## To visually confirm my SQL results, I processed the data in Power BI using two different formats: 
+
+####Long (Unpivoted) Format: Used to compare all subjects side-by-side in one chart. This shows that average scores for 'Hired' vs 'Not Hired' students are almost identical. 
+
+##### Wide (Original) Format: Used for Scatter Plots (e.g., Python vs ML). This allows me to pinpoint specific outliers, like students with near-zero scores who still secured jobs. 
+
+#### Using both formats ensures that I can analyze the data from every angle to prove the inconsistencies found earlier.
+![PBI 1 Preview](pBI_1.png)
+
+
+![PBI 2 Preview](pBI_2.png)
+## 1. Bar Chart: Recruitment vs. Performance 
+
+#### Key Finding: Average scores for hired and rejected candidates are almost identical across all subjects (Python, SQL, ML, Tableau,Excel). 
+
+#### Insight: There is no visible 'performance gap.' This visually confirms that academic results do not determine employment in this dataset, suggesting the data may be synthetic or lacks logical consistency. 
+![Grafic](GRAFIC1.png)
+## 2. Placement vs. Technical Skills Analysis 
+### Key Findings  
+
+#### Anomalies: Significant outliers were identified where candidates with near-zero scores were hired, while many with 90+ scores were rejected. 
+#### Randomness: The scatter plot shows a completely random distribution of data points, proving that the hiring process was not merit-based regarding technical skills. 
+### Insight The data reveals no correlation between technical proficiency  and final recruitment outcomes. Candidates with the lowest academic scores had the same probability of being hired as those with top-tier results.
+![Grafic](GRAFIC2.png)
+
+![Grafic](GRAFIC3.png)
+*Data Source: https://www.kaggle.com/datasets/samarsaeedkhan/scores 
+
+
 
 
