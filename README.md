@@ -142,12 +142,12 @@ WHERE Python < 5 AND Student_Placed = 'Yes'
 select * from scores
 ```
 ![kod Preview](Kod8.png)
-## During my SQL analysis, I found some very strange cases that prove exam scores aren't everything. For example, Student #15 had amazing scores (88 in Python, 83 in SQL, 93 in ML) but was not hired. On the other hand, Student #167 got the job despite scoring only 3 in Python and 6 in ML. 
+### During my SQL analysis, I found some very strange cases that prove exam scores aren't everything. For example, Student #15 had amazing scores (88 in Python, 83 in SQL, 93 in ML) but was not hired. On the other hand, Student #167 got the job despite scoring only 3 in Python and 6 in ML. 
 
-## This points to two main conclusions: 
+### This points to two main conclusions: 
 
-### Hidden Factors: Real-world elements like interview performance or past experience might have outweighed the test results. 
+#### Hidden Factors: Real-world elements like interview performance or past experience might have outweighed the test results. 
 
-### Data Integrity: There is a strong possibility that the dataset itself is inconsistent or synthetic. The lack of a logical correlation between high scores and placement suggests that the data may not reflect real-world hiring logic. As an analyst, recognizing that data can sometimes be unreliable is just as important as the analysis itself. 
+#### Data Integrity: There is a strong possibility that the dataset itself is inconsistent or synthetic. The lack of a logical correlation between high scores and placement suggests that the data may not reflect real-world hiring logic. As an analyst, recognizing that data can sometimes be unreliable is just as important as the analysis itself. 
 
 
